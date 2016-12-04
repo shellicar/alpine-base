@@ -1,0 +1,6 @@
+version: '2'
+services:
+    alpine-base:
+        build: .
+        image: shellicar/alpine-base
+        container_name: alpine-base
